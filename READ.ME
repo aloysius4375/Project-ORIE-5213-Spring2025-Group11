@@ -1,0 +1,15 @@
+# Stable Matching with Capacity Expansions
+Implementation and comparison of three mathematical programming approaches for school-student matching with capacity expansion under budget constraints.
+
+## Models
+1. **Quadratic Model (MIQCP)**: Direct formulation with quadratic stability constraints
+2. **Individualized Linearization (MILP)**: Transforms quadratic terms using auxiliary variables
+3. **Aggregated Linearization (MILP)**: Groups students by priority levels for efficient linearization
+
+## Dataset
+- 1,395 students and 100 school tracks (Magallanes, Chile data)
+
+## Dependencies
+- Python 3.8+
+- Gurobi Optimizer
+- pandas, numpy
